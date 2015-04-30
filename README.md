@@ -5,7 +5,7 @@ FSND- Project 2 Tournament Results
 
 
 
-1. Follow instructions <a href=https://www.udacity.com/wiki/ud088/vagrant">here </a> to install the virtual machine required to run this project. This virtual machine is configured using vagrant and provides the necessary environment setup to run the project.
+1. Follow instructions <a href="https://www.udacity.com/wiki/ud088/vagrant">here </a> to install the virtual machine required to run this project. This virtual machine is configured using vagrant and provides the necessary environment setup to run the project.
 
 
 2. Please make sure that you follow the instructions under "Run the virtual machine". At the command prompt run the following command
