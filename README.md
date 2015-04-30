@@ -21,7 +21,7 @@ FSND- Project 2 Tournament Results
 
 
 
-3. Copy all source files from the project here. (This should be *tournament.py*, *tournament.sql* and #tournament_test.py*)
+3. Copy all source files from the project here. (This should be *tournament.py*, *tournament.sql* and *tournament_test.py*)
 
 
 4. Open psql. Type *psql* on command prompt.
