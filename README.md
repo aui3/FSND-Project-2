@@ -10,16 +10,16 @@ FSND- Project 2 Tournament Results
 
 2. Please make sure that you follow the instructions under "Run the virtual machine". At the command prompt run the following command
 
-	a) *vagrant up* 
+	a) <b>vagrant up</b>
 
-	b) *vagrant ssh* 
+	b) <b>vagrant ssh</b>
 
-	c) *cd \vagrant*)
+	c) <b>cd \vagrant</b>
  
 
 2. You should now be connected to your vagrant machine and inside the folder <b>\vagrant</b>. Change directory to 'tournament' by 
 
-	d) *cd \tournament*
+	d) <b>cd \tournament</b>
 
 
 
@@ -29,17 +29,21 @@ FSND- Project 2 Tournament Results
 
 4. Set up the data base to for the project by connecting to psql. At the command prompt type:
 
-	e) *psql* 
+	e) <b>psql</b> 
 
 
 
-5. Run *\i tournament.sql* to set up the databaßse and views
+5. To set up the database and views at the command prompt run
+
+	f) <b>\i tournament.sql</b>
 
 
-6. Exit out of psql by (Ctrl +d).
+6. Exit out of psql by (Ctrl +d)
 
 
-7. At the command prompt run *python tournament_test.psql*
+7. At the command prompt run
+
+	g) <b>python tournament_test.psql</b>
 
 
 
