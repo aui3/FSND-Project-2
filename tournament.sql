@@ -6,10 +6,10 @@
 -- You can write comments in this file by starting them with two dashes, like
 -- these lines here.
 
+-- Create 'tournament' database. If it already exists, drop and create new. Then connect to it.
 drop database if exists tournament;
 create database tournament;
 \c tournament
-
 
 
 --PLAYERS TABLE
@@ -19,10 +19,11 @@ name text
 );
 
 --MATCHES TABLES
+-- winner and loser are id's of the corresponding players. 
 create table matches (
 match_id serial primary key,
-winner int,
-loser int
+winner int references players (player_id),
+loser int references players (player_id)
 );
 
 -- The View 'playerwins' stores playerid and number of wins for each player
